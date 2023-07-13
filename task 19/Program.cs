@@ -4,10 +4,9 @@
 // 12821 -> да
 // 23432 -> да
 
-
 Console.WriteLine("Введите число: ");
 string number = Console.ReadLine();
-int lenght  = number.Lenght;
+int lenght = number.Length;
 
 if (lenght == 5)
 {
@@ -24,8 +23,3 @@ else
 {
  Console.WriteLine($"ОШИБКА: {number} - не является пятизначным");
 }
-
-
-
-
-
